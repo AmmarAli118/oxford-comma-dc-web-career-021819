@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  if array.length = 0 
+  if array.length == 2 
     return array.join(" and ")
   else  
     and_finish = "and #{array.pop}"
